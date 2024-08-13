@@ -14,12 +14,12 @@
 
     <main>
         <form action="">
-            <label for="">Jenis Kelamin</label>
+            <label for="radio-pria">Jenis Kelamin</label>
             <div>
                 <input type="radio" name="jk" id="radio-pria" value="pria"><span class="span-1">Pria</span>
                 <input type="radio" name="jk" id="radio-wanita" value="wanita"><span class="span-1">Wanita</span>
             </div>
-            <label for="">Berat Badan (kg)</label>
+            <label for="berat-badan">Berat Badan (kg)</label>
             <div class="form-div">
                 <span class="box">
                     <img src="Asset/pencil-solid-24.png" alt="" class="pencil-img">
@@ -31,21 +31,22 @@
                 <span class="box">
                     <img src="Asset/pencil-solid-24.png" alt="" class="pencil-img">
                 </span>
-                <input type="number">
+                <input type="number" id="umur">
             </div>
             <label for="" class="label">Tinggi Badan (cm)</label>
             <div class="form-div">
                 <span class="box">
                     <img src="Asset/pencil-solid-24.png" alt="" class="pencil-img">
                 </span>
-                <input type="number" name="" id="">
-            </div>
-            <div class="calculate-button" onclick="validate();">
-                <button class="button-1">Hitung BMI</button>
-                <button class="button-2">Reset</button>
+                <input type="number" name="" id="tinggi-badan">
             </div>
         </form>
+        <div class="calculate-button">
+            <button class="button-1" onclick="validate()">Hitung BMI</button>
+            <button class="button-2" id="testing-11">Reset</button>
+        </div>
         
+        <p class="error" id="error-1"></p>
 
         <p class="penjelasan">Keunggulan Fitur</p>
         <li>Menghitung berat badan</li>
@@ -56,7 +57,7 @@
         <p class="penjelasan-3">Kalkulator akan memberi Anda gambaran tentang perbandingan berat badan Anda dengan nilai umum. Indeks Massa Tubuh (atau BMI) dihitung sebagai berat badan Anda (dalam kilogram) dibagi dengan kuadrat tinggi badan Anda (dalam meter) atau BMI = Kg/M<sup>2</sup></p>
     </main>
 
-    <section>
+    <section id="section">
         <p class="section-1">Hasil</p>
         <div class="section-2">
             <div class="section-3">Berat Badan Lebih</div>

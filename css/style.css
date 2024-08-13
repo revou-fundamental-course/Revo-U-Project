@@ -115,7 +115,15 @@ input[type=number]{
 }
 
 .calculate-button{
+    margin-left: 1em;
+    margin-bottom: 1em;
     margin-top: 3em;
+}
+
+.error{
+    margin-left: 1.2em;
+    color: red;
+    font-weight: 800;
 }
 
 .penjelasan{
