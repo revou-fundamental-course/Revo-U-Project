@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Poppins;
+    text-align: justify;
 }
 
 body{
@@ -120,6 +121,10 @@ input[type=number]{
     margin-top: 3em;
 }
 
+.margin{
+    margin-bottom: .5em;
+}
+
 .error{
     margin-left: 1.2em;
     color: red;
@@ -140,6 +145,19 @@ input[type=number]{
 .penjelasan-3{
     margin-bottom: 2em;
     text-align: justify;
+}
+
+.footer-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2.5em;
+}
+
+.playstore{
+    width: 250px;
 }
 
 .section-1{
@@ -197,4 +215,18 @@ footer{
 footer .footer-1{
     display: flex;
     flex-direction: column;
+}
+
+@media(max-width:950px){
+    .section-5{
+        margin-top: 2em;
+    }
+}
+
+@media(max-width:620px){
+    .section-6{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
 }

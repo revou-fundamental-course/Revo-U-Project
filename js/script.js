@@ -126,7 +126,7 @@ function validate(){
              inti6 = 'Menurunkan berat badan'
              inti7 = 
             `
-                <div>Beberapa penyakit yang berasal dari kekurangan berat badan </div>
+                <div class="margin">Beberapa penyakit yang berasal dari kekurangan berat badan </div>
                 <div>Diabetes tipe 2</div>
                 <div>Sleep apnea</div>
                 <div>Beberapa jenis kanker</div>
